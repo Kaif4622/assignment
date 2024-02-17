@@ -1,0 +1,493 @@
+body{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+body p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: 0.16px;
+    color: #1A4122;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* style for header  */
+
+header{
+    background-color: white;
+    min-height: 130px;
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    top: 0;
+    /* position: fixed; */
+    z-index: 1;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 0% 6vw;
+}
+
+ul li{
+    padding: 0vw 1.5vw;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.05vw;
+    letter-spacing: 2px;
+}
+
+header img {
+    margin-left: 9vw;
+}
+
+.r-nav{
+    margin-left: 20px;
+}
+
+.nav-btn a{
+    text-decoration: none;
+    color: white;
+    background-color: #C15627;
+    padding: 8px 16px;
+    font-size: 1.05vw;
+    margin-left: -55px;
+    border-radius: 20px;
+}
+/* End of header  */
+
+ul li a:hover {
+    color:  #C15627;
+}
+
+.btn-hvr a:hover{
+    color: #FFF;
+    filter: brightness(120%);
+}
+/* style for main */
+
+/* style for video */
+video{
+    width: 100%;
+    height: 100%;
+    min-height: 550px;
+    object-fit: cover;
+}
+
+.video h2{
+    position: absolute;
+    margin: -30% 21%;
+    font-size: 7rem;
+    letter-spacing: -3px;
+    font-family: "F37 Caslon" ;
+    font-weight: lighter;
+    color: white;
+}
+
+/* style for section of welcome  */
+.welcome {
+    margin-top: 38vh;
+    z-index: 2;
+    display: flex;
+}
+
+.desc {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.desc h3{
+    text-align: center;
+    color: #647B4E;
+    text-align: center;
+    font-family: "Rustica", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.desc h2{
+    text-align: center;
+    color: #1A4122;
+    text-align: center;
+    font-family: "F37 Caslon", serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.desc p {
+    max-width: 490px;
+    margin: 30px auto 35px;
+    color: #1A4122;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.wel-btn a{
+    text-decoration: none;
+    color: white;
+    background-color: #C15627;
+    padding: 8px 16px;
+    font-size: 1.05vw;
+    border-radius: 20px;
+}
+
+.slider{
+    height: 50vh;
+    width: 50%;
+    overflow: hidden;
+    border-top-left-radius: 300px;
+}
+
+.slider img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* style for wedding description  */
+.wed-desc{
+    width: 100%;
+    max-width: 1240px;
+    margin: 40vh auto;
+    padding: 20px;
+    z-index: 100;
+    display: flex;
+}
+
+.wed-desc .img{
+    width: 40%;
+    position: relative;
+    border-radius: 100vw;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wed-info {
+    width: 60%;
+}
+
+.info-content{
+    margin-top: 5.5rem;
+    padding-left: 4.8rem;
+}
+
+.headline h2{
+    color: #1A4122;
+    text-align: center;
+    font-family: "F37 Caslon", serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+.info-desc{
+    margin-top: 4.5rem;
+    grid-template-columns: 3fr 9fr;
+    column-gap: 4.75rem;
+    display: grid;
+    align-items: start;
+    gap: 3rem;
+}
+
+.btn-wed-desc{
+    border: none;
+    border-radius: 0;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    cursor: pointer;
+    display: block;
+    font-family: "F37 Caslon", serif;
+    font-size: 1.625rem;
+    font-weight: 400;
+    color: rgba(146, 146, 146, 0.5);
+    transition: color ease 400ms;
+    line-height: 2;
+}
+
+.clr{
+    color: #1A4122;
+}
+
+.exp-desc{
+    overflow: hidden;
+    position: relative;
+    opacity: 1;
+}
+
+.desc-content{
+    opacity: 1;
+}
+
+.desc-content h3{
+    color: #1A4122;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    margin-top: 13px;
+}
+
+.desc-content p{
+    margin-top: 20px;
+    color: #1A4122;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 140%;
+}
+
+.wed-btn a{
+    text-decoration: none;
+    color: white;
+    background-color: #C15627;
+    padding: 8px 16px;
+    font-size: 1.05vw;
+    border-radius: 20px;
+    margin-left: 15vw;
+}
+
+
+/* <!-- circle content with image  --> */
+.circle{
+    z-index: 2;
+}
+
+.circle-img{
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    min-height: 595px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+    background:url("./assets/cir-img.png") no-repeat;
+}
+
+.half-circle{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 345px 345px 0 0;
+        background-color: #fff;
+        display: block;
+        z-index: 23344;
+        height: 316px;
+        width: 643px;
+        bottom: -292px;
+}
+
+.circle-content{
+    position: relative;
+    z-index: 2;
+    margin: -50px auto 0;
+    max-width: 620px;
+}
+
+.circle-content h3{
+    
+    color: #647B4E;
+    text-align: center;
+    font-family: "Rustica", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.circle-content h2{
+    color: #1A4122;
+    text-align: center;
+    font-family: "F37 Caslon", serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.circle-content p{
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 35px;
+}
+
+.exp-btn a{
+    text-decoration: none;
+    color: white;
+    background-color: #C15627;
+    padding: 8px 16px;
+    font-size: 1.05vw;
+    border-radius: 20px;
+    margin-left: 15vw;
+}
+
+
+/* square slider  */
+
+@media (min-width: 1024px){
+.square {
+    margin: 6rem 0;
+}
+}
+
+.sq-slider{
+    padding-left: 4.2rem;
+    padding: 0 4rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.slider-content{
+    padding-right: 35px;
+}
+
+.sq-slider img{
+    width: 42vw;
+    max-width: 40.625rem;
+    height: 100vh;
+}
+
+.grey{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(235, 227, 227);
+    margin-top: -250px;
+}
+
+.container-info{
+    width: 100%;
+    margin: 0px auto;
+    background-color: rgb(235, 227, 227);
+}
+
+.container-info h2{
+    text-align: center;
+    margin: 0px auto 30px;
+    color: #1A4122;
+    text-align: center;
+    font-family: "F37 Caslon", serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+}
+
+.container-info p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    margin-bottom: 35px;
+}
+
+.the-content{
+    margin: 0px auto;
+}
+
+.g-video {
+    width: 100%;
+    height: 130vh;
+    background-color: rgb(235, 227, 227);
+    margin-top: -35px !important;
+    display: flex;
+    justify-content: center;
+}
+ 
+.g-content{
+    margin-top: 150px;
+}
+
+.services{
+    width: 100%;
+    max-width: 1240px;
+    margin: 500px auto 0px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services h2{
+    text-align: center;
+    margin: -250px auto 30px;
+    color: #1A4122;
+    text-align: center;
+    font-family: "F37 Caslon", serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+}
+
+
+
+.services p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+}
+
+.ser-btn a{
+    text-decoration: none;
+    color: white;
+    background-color: #C15627;
+    padding: 8px 16px;
+    font-size: 1.05vw;
+    border-radius: 20px;
+}
+
+.ser-btn {
+    margin-top: 40px;
+}
+
+/* code for career  */
